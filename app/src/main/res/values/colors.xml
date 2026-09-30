@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green_primary">#2E7D32</color>
+    <color name="green_primary_dark">#1B5E20</color>
+    <color name="orange_accent">#EF6C00</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Status colours used in the lists -->
+    <color name="status_expired">#C62828</color>
+    <color name="status_soon">#EF6C00</color>
+    <color name="status_ok">#2E7D32</color>
+
+    <color name="ic_launcher_background">#2E7D32</color>
+</resources>
