@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- No permissions are needed: the app only uses its own private database.
+         There is deliberately no location or maps permission (brief, Section 3.3). -->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SmartPantry">
+
+        <activity
+            android:name=".ui.PantryListActivity"
+            android:exported="true"
+            android:label="@string/title_pantry">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.PantryItemActivity"
+            android:exported="false"
+            android:label="@string/title_add_item"
+            android:parentActivityName=".ui.PantryListActivity"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name=".ui.SuggestedRecipesActivity"
+            android:exported="false"
+            android:label="@string/title_suggested" />
+
+        <activity
+            android:name=".ui.RecipeDetailActivity"
+            android:exported="false"
+            android:label="@string/title_recipe"
+            android:parentActivityName=".ui.SuggestedRecipesActivity" />
+
+        <activity
+            android:name=".ui.SettingsActivity"
+            android:exported="false"
+            android:label="@string/title_settings" />
+
+    </application>
+
+</manifest>
