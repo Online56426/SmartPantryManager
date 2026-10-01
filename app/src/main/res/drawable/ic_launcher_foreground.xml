@@ -11,6 +11,6 @@
         android:fillColor="#FFFFFF"
         android:pathData="M34,40h40v34c0,4.4 -3.6,8 -8,8H42c-4.4,0 -8,-3.6 -8,-8z" />
     <path
-        android:fillColor="#2E7D32"
+        android:fillColor="@color/ic_launcher_background"
         android:pathData="M42,52h24v4H42z M42,62h24v4H42z" />
 </vector>
