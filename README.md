@@ -28,7 +28,7 @@ Ingredient names are tidied up (lower case, singular form), units are converted 
 
 You need Android Studio with Android SDK 34. Use the JDK that comes with Android Studio.
 
-1. Clone the repository with `git clone <repository link>`
+1. Clone the repository with `git clone https://github.com/Online56426/SmartPantryManager`
 2. In Android Studio choose File > Open, select the project folder and wait for Gradle to sync (it needs internet the first time).
 3. Create an emulator (Android 8.0, API 26 or newer) or connect a phone with USB debugging switched on.
 4. Press Run.
